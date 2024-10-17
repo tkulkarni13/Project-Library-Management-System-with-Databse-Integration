@@ -1,0 +1,6 @@
+# Library Management System Application with SQL Integration
+
+This application allows user to manage a library system via command line inputs. There are 3 core components to this library management system. Users are able to store information about books, users, authors. Users can add new books, users, and authors, to the system, and search for each of these at a later time. The newly added data is stored in a SQL database. There is also functionality to check out a book, and return it at a later date. There is one copy of each book available until checked out. Once a book has been checked out, it must be returned before it can be checked out again. All checked out books are stored in a table with a borrow and return date. This can be accessed to see overall how often people are using the library system. There is also functionality to view all books, authors, and users in the system. Users can also search for specific books by their title or isbn. This allows users to easily see which books are available and which arent.
+
+
+Author: Tejas Kulkarni
