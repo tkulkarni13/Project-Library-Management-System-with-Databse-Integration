@@ -1,12 +1,13 @@
 import mysql.connector
 from mysql.connector import Error
+from password import my_password
 
 # Connect to the MySQL database and return the connection object
 def connect_database():
     # Database Connection Parameters
     db_name = "library_db"
     user = "root"
-    password = "SmallDog9!"
+    password = my_password
     host = "localhost"
 
     try:
